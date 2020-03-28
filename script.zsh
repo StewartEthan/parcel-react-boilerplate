@@ -41,9 +41,6 @@ curl -fsSL "$TEMPLATE_PATH/index.html" | sed "s/PROJECT_NAME/$PROJECT_NAME/" > .
 curl -fsSL "$TEMPLATE_PATH/index.js" > ./src/index.js;
 curl -fsSL "$TEMPLATE_PATH/App.js" | sed "s/PROJECT_NAME/$PROJECT_NAME/" > ./src/components/App.js;
 
-# Add linting
-curl -fsSL "$TEMPLATE_PATH/.eslintrc.json" > ./.eslintrc.json;
-
 # Set up fix on save for VS Code
 if [ ! -d ./.vscode ]; then
   mkdir ./.vscode;
