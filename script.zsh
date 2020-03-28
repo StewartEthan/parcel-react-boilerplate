@@ -32,7 +32,7 @@ curl -fsSL "$TEMPLATE_PATH/package.json" \
 echo "package-lock=false" > ./.npmrc;
 
 # Install dependencies
-npm i @emotion/core react react-dom;
+npm i @emotion/core react react-dom prop-types;
 npm i --save-dev @babel/core @emotion/babel-preset-css-prop eslint jest parcel-bundler github:StewartEthan/eslint-config-personal;
 
 # Create base files
