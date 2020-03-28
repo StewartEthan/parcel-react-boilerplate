@@ -33,7 +33,7 @@ echo "package-lock=false" > ./.npmrc;
 
 # Install dependencies
 npm i @emotion/core react react-dom;
-npm i --save-dev @babel/core @emotion/babel-preset-css-prop eslint eslint-plugin-react jest parcel-bundler github:StewartEthan/eslint-config-personal;
+npm i --save-dev @babel/core @emotion/babel-preset-css-prop eslint jest parcel-bundler github:StewartEthan/eslint-config-personal;
 
 # Create base files
 mkdir ./public ./src ./src/components;
