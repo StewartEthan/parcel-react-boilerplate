@@ -11,6 +11,6 @@
   "author": "Ethan Stewart <eestewart23@gmail.com>",
   "license": "MIT",
   "eslintConfig": {
-    "extends": ["personal"]
+    "extends": ["eslint-config-personal"]
   }
 }
