@@ -1,0 +1,13 @@
+{
+  "name": "PROJECT_NAME",
+  "version": "0.0.1",
+  "description": "PROJECT_DESCRIPTION",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel index.html -p PORT_NUMBER",
+    "test": "jest --watch"
+  },
+  "author": "Ethan Stewart <eestewart23@gmail.com>",
+  "license": "MIT"
+}
