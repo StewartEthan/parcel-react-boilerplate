@@ -9,5 +9,8 @@
     "test": "jest --watch"
   },
   "author": "Ethan Stewart <eestewart23@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": ["personal"]
+  }
 }
